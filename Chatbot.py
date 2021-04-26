@@ -2,10 +2,14 @@ from chatterbot.trainers import ListTrainer
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
+import logging
+
+# basic logging config
+logging.basicConfig(filename="chatbot.log", level=logging.INFO, filemode="w")
 
 # Creating ChatBot Instance
 chatbot = ChatBot(name = 'CoronavirusBot',
-                  read_only = False,
+                  read_only = True,
                   logic_adapters=[
                       {
                           'import_path': 'chatterbot.logic.SpecificResponseAdapter',
@@ -14,15 +18,17 @@ chatbot = ChatBot(name = 'CoronavirusBot',
                       },
                       {
                           'import_path': 'chatterbot.logic.BestMatch',
-                          'default_response': 'I am sorry, but I do not understand. I am still learning.',
+                          'default_response': 'I am sorry, but I do not understand. Type Questions if you need to '
+                                              'view the questions.',
                           'maximum_similarity_threshold': 0.95
                       }
                   ],
                   storage_adapter = "chatterbot.storage.SQLStorageAdapter")
+#Clear the chatbots storage
 #chatbot.storage.drop()
-# Training with Personal Ques & Ans
+
+# Training with Personal Ques & Ans using list trainer
 #training_data_quesans = open('training_data/ques_ans.txt').read().splitlines()
-#medical = open('training_data/medical.yml').read().splitlines()
 #training_data_personal = open('training_data/personal_ques.txt').read().splitlines()
 #training_data = training_data_quesans + training_data_personal + medical
 #trainer = ListTrainer(chatbot)

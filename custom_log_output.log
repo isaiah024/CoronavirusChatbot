@@ -1,0 +1,129 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:09:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:09:25] "[37mGET /static/styles/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:09:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Rate my experience 1.0
+INFO:chatterbot.chatterbot:Using "Rate my experience" as a close match to "Rate my experience" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "<a href="https://docs.google.com/forms/d/e/1FAIpQLSeLH8Qy0QhPDrcL5RIthwQ_THt8wrgXGXdf-Ni0VWdorQ5kVw/viewform">Here</a>"
+INFO:chatterbot.chatterbot:BestMatch selected "<a href="https://docs.google.com/forms/d/e/1FAIpQLSeLH8Qy0QhPDrcL5RIthwQ_THt8wrgXGXdf-Ni0VWdorQ5kVw/viewform">Here</a>" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:10:06] "[37mGET /get?msg=Rate%20my%20experience HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I think I might have COVID 1.0
+INFO:chatterbot.chatterbot:Using "I think I might have COVID" as a close match to "I think I might have covid" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911."
+INFO:chatterbot.chatterbot:BestMatch selected "What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:10:41] "[37mGET /get?msg=I%20think%20I%20might%20have%20covid HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Symptoms may appear 2-14 days after exposure to the virus. Fever or chills Cough Shortness of breath or difficulty breathing Fatigue Muscle or body aches Headache New loss of taste or smell Sore throat Congestion or runny nose Nausea or vomiting Diarrhea 0.01
+INFO:chatterbot.chatterbot:Similar text found: What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911. 0.31
+INFO:chatterbot.chatterbot:Similar text found: Fever, chills 0.79
+INFO:chatterbot.chatterbot:Similar text found: Fever, chills, aches 1.0
+INFO:chatterbot.chatterbot:Using "Fever, chills, aches" as a close match to "Fever, chills, aches" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "It is possible you may have covid. You may want to get tested."
+INFO:chatterbot.chatterbot:BestMatch selected "It is possible you may have covid. You may want to get tested." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:10:48] "[37mGET /get?msg=Fever%2C%20chills%2C%20aches HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Questions 1.0
+INFO:chatterbot.chatterbot:Using "Questions" as a close match to "Questions" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "What is COVID-19? What are the symptoms of COVID-19? How can I prevent the risk of infection? What should I do if I have symptoms? What should I do if I test positive? Where can I get updates about COVID-19? What should I do if I get exposed? How long does it take to show symptoms of COVID-19? What are some emergency warning signs for COVID-19? Where can I make an appointment? I think I might have COVID-19"
+INFO:chatterbot.chatterbot:BestMatch selected "What is COVID-19? What are the symptoms of COVID-19? How can I prevent the risk of infection? What should I do if I have symptoms? What should I do if I test positive? Where can I get updates about COVID-19? What should I do if I get exposed? How long does it take to show symptoms of COVID-19? What are some emergency warning signs for COVID-19? Where can I make an appointment? I think I might have COVID-19" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:11:08] "[37mGET /get?msg=Questions HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: What is COVID-19? 0.9
+INFO:chatterbot.chatterbot:Similar text found: What is COVID? 1.0
+INFO:chatterbot.chatterbot:Using "What is COVID?" as a close match to "What is covid?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 3 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 3 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Coronaviruses, named for the crown-like spikes on their surfaces, are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. There are many types of human coronaviruses, including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans."
+INFO:chatterbot.chatterbot:BestMatch selected "Coronaviruses, named for the crown-like spikes on their surfaces, are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. There are many types of human coronaviruses, including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:11:26] "[37mGET /get?msg=What%20is%20covid%3F HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "Help" as a close match to "Help" with a confidence of 0
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "I am sorry, but I do not understand. Type Questions if you need to view the questions." as a response with a confidence of 0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:12:03] "[37mGET /get?msg=Help HTTP/1.1[0m" 200 -
+ERROR:sqlalchemy.pool.impl.NullPool:Exception during reset or similar
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 558, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 17876 and this is thread id 15756.
+ERROR:sqlalchemy.pool.impl.NullPool:Exception closing connection <sqlite3.Connection object at 0x0000023E23348120>
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 558, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 17876 and this is thread id 15756.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 270, in _close_connection
+    self._dialect.do_close(connection)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 564, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 17876 and this is thread id 15756.
+ERROR:sqlalchemy.pool.impl.NullPool:Exception during reset or similar
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 558, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 14248 and this is thread id 15756.
+ERROR:sqlalchemy.pool.impl.NullPool:Exception closing connection <sqlite3.Connection object at 0x0000023E233485D0>
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 697, in _finalize_fairy
+    fairy._reset(pool)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 893, in _reset
+    pool._dialect.do_rollback(self)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 558, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 14248 and this is thread id 15756.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\pool\base.py", line 270, in _close_connection
+    self._dialect.do_close(connection)
+  File "D:\Downloads\Python\Projects\chatbot\lib\site-packages\sqlalchemy\engine\default.py", line 564, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 14248 and this is thread id 15756.
+INFO:chatterbot.chatterbot:Not processing the statement using SpecificResponseAdapter
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Coronaviruses, named for the crown-like spikes on their surfaces, are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. There are many types of human coronaviruses, including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans. 0.01
+INFO:chatterbot.chatterbot:Using "Coronaviruses, named for the crown-like spikes on their surfaces, are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. There are many types of human coronaviruses, including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans." as a close match to "Type a question or type Questions for a list of the questions." with a confidence of 0.01
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "I am sorry, but I do not understand. Type Questions if you need to view the questions." as a response with a confidence of 0
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:14:58] "[37mGET /get?msg=Type%20a%20question%20or%20type%20Questions%20for%20a%20list%20of%20the%20questions. HTTP/1.1[0m" 200 -
