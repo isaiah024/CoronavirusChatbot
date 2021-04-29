@@ -12,11 +12,6 @@ chatbot = ChatBot(name = 'CoronavirusBot',
                   read_only = True,
                   logic_adapters=[
                       {
-                          'import_path': 'chatterbot.logic.SpecificResponseAdapter',
-                          'input_text': 'Help',
-                          'output_text': 'Type a question or type Questions for a list of the questions.'
-                      },
-                      {
                           'import_path': 'chatterbot.logic.BestMatch',
                           'default_response': 'I am sorry, but I do not understand. Type Questions if you need to '
                                               'view the questions.',
@@ -25,7 +20,9 @@ chatbot = ChatBot(name = 'CoronavirusBot',
                   ],
                   storage_adapter = "chatterbot.storage.SQLStorageAdapter")
 #Clear the chatbots storage
-#chatbot.storage.drop()
+#Helps prevent incorrect answers from the bot
+#You want to disable this when training the bot
+chatbot.storage.drop()
 
 # Training with Personal Ques & Ans using list trainer
 #training_data_quesans = open('training_data/ques_ans.txt').read().splitlines()
