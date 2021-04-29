@@ -1,0 +1,23 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2021 16:44:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: What should I do if I have symptoms? 0.38
+INFO:chatterbot.chatterbot:Similar text found: Where can I get tested? 0.65
+INFO:chatterbot.chatterbot:Similar text found: Where can I make an appointment? 1.0
+INFO:chatterbot.chatterbot:Using "Where can I make an appointment?" as a close match to "Where can I make an appointment?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "<a href="https://www.goodrx.com/blog/drive-thru-coronavirus-testing-near-me/">Here</a>"
+INFO:chatterbot.chatterbot:BestMatch selected "<a href="https://www.goodrx.com/blog/drive-thru-coronavirus-testing-near-me/">Here</a>" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2021 16:44:37] "[37mGET /get?msg=Where%20can%20I%20make%20an%20appointment%3F HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: What should I do if I have symptoms? 0.34
+INFO:chatterbot.chatterbot:Similar text found: Where can I get tested? 1.0
+INFO:chatterbot.chatterbot:Using "Where can I get tested?" as a close match to "Where can I get tested?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "<a href="https://www.goodrx.com/blog/drive-thru-coronavirus-testing-near-me/">Here</a>"
+INFO:chatterbot.chatterbot:BestMatch selected "<a href="https://www.goodrx.com/blog/drive-thru-coronavirus-testing-near-me/">Here</a>" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2021 16:46:10] "[37mGET /get?msg=Where%20can%20I%20get%20tested%3F HTTP/1.1[0m" 200 -
