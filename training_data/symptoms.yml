@@ -1,0 +1,19 @@
+categories:
+  symptoms
+conversations:
+  - - I think I might have COVID-19
+    - What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911.
+  - - I think I might have COVID
+    - What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911.
+  - - I think I might have covid-19
+    - What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911.
+  - - I think I might have covid
+    - What are your symptoms? Enter in a list i.e. "Fever, chills, aches, ...". If this is an emergency call 911.
+  - - Fever
+    - Could just be the common cold. Pay attention to your symptoms, if they get worse you may have COVID.
+  - - Fever, chills
+    - Could just be the common cold. Pay attention to your symptoms, if they get worse you may have COVID.
+  - - Fever, chills, aches
+    - It is possible you may have covid. You may want to get tested.
+  - - Chills, aches, cough
+    - It is possible you may have covid. You may want to get tested.
